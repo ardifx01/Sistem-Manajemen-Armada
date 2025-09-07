@@ -1,0 +1,52 @@
+{
+  "info": {
+    "name": "Fleet Management API",
+    "_postman_id": "f5b6b63d-9b5c-41b6-9c72-3f40a3c04c72",
+    "description": "Postman collection untuk testing Fleet Management System (Backend).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Last Location",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/vehicles/B1234XYZ/location",
+          "host": ["{{base_url}}"],
+          "path": ["vehicles", "B1234XYZ", "location"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Location History",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/vehicles/B1234XYZ/history?start=1715000000&end=1715009999",
+          "host": ["{{base_url}}"],
+          "path": ["vehicles", "B1234XYZ", "history"],
+          "query": [
+            {
+              "key": "start",
+              "value": "1715000000"
+            },
+            {
+              "key": "end",
+              "value": "1715009999"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8090"
+    }
+  ]
+}
