@@ -9,6 +9,7 @@
 Backend service untuk **Sistem Manajemen Armada** Transjakarta.  
 Dibangun dengan **Golang**, menggunakan **MQTT, PostgreSQL, RabbitMQ, dan Docker**.
 
+Video Link : https://drive.google.com/file/d/1LUBBdXmauS7cDbZWN5vWN-QOPr95KRKi/view?usp=sharing
 ---
 
 ## ⚙️ Fitur Utama
