@@ -59,7 +59,7 @@ Video Link : https://drive.google.com/file/d/1LUBBdXmauS7cDbZWN5vWN-QOPr95KRKi/v
 
 ### 1. Clone repo
 ```bash
-git clone https://github.com/your-username/fleet-management.git
+git clone https://github.com/ardifx01/Sistem-Manajemen-Armada.git
 cd fleet-management
 ````
 
